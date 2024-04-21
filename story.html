@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Inside Voice Overs | Story</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <audio id="clickSound" src="media/click.mp3"></audio>
+    <audio id="hoverSound" src="media/hover.mp3"></audio>
+    <header class="bg-blur">
+        <nav class="web">
+            <ul>
+                <li><a href="index.html" class="logo dropdown" onclick="playClickSound()"><img src="media/logo.png"
+                            alt="Logo" class="logo"></a>
+                </li>
+            </ul>
+            <ul>
+                <li class="dropdown">
+                    <a href="about.html" class="dropbtn" onclick="playClickSound()">About</a>
+                    <div class="dropdown-content">
+                        <a href="story.html" class="dropdown" onclick="playClickSound()">Our story</a>
+                        <a href="team.html" class="dropdown" onclick="playClickSound()">Meet the team</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="comics.html" class="dropbtn" onclick="playClickSound()">Comics</a>
+                    <div class="dropdown-content">
+                        <a href="action.html" class="dropdown" onclick="playClickSound()">Action</a>
+                        <a href="comedy.html" class="dropdown" onclick="playClickSound()">Comedy</a>
+                    </div>
+                </li>
+                <li><a href="contact.html" class="dropdown" onclick="playClickSound()">Contact</a></li>
+                <li class="dropdown">
+                    <a href="whatsnew.html" class="dropbtn" onclick="playClickSound()">What's new</a>
+                    <div class="dropdown-content">
+                        <a href="whatsnew.html#news" class="dropdown" onclick="playClickSound()">News</a>
+                        <a href="whatsnew.html#events" class="dropdown" onclick="playClickSound()">Events</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- <ul>
+                <li><input type="search" name="search" id="search" placeholder="Search here"></li>
+            </ul> -->
+        </nav>
+        <nav class="mobile">
+            <ul>
+                <li><a href="index.html" class="logo dropdown" onclick="playClickSound()"><img src="media/logo.png"
+                            alt="Logo" class="logo"></a>
+                </li>
+                <li><a href="#" onclick="menu(); playClickSound();">Menu</a></li>
+            </ul>
+            <ul class="column" id="view">
+                <li class="dropdown">
+                    <a href="about.html" class="dropbtn" onclick="playClickSound()">About</a>
+                    <div class="dropdown-content">
+                        <a href="story.html" class="dropdown" onclick="playClickSound()">Our story</a>
+                        <a href="team.html" class="dropdown" onclick="playClickSound()">Meet the team</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="comics.html" class="dropbtn" onclick="playClickSound()">Comics</a>
+                    <div class="dropdown-content">
+                        <a href="action.html" class="dropdown" onclick="playClickSound()">Action</a>
+                        <a href="comedy.html" class="dropdown" onclick="playClickSound()">Comedy</a>
+                    </div>
+                </li>
+                <li><a href="contact.html" class="dropdown" onclick="playClickSound()">Contact</a></li>
+                <li class="dropdown">
+                    <a href="whatsnew.html" class="dropbtn" onclick="playClickSound()">What's new</a>
+                    <div class="dropdown-content">
+                        <a href="whatsnew.html#news" class="dropdown" onclick="playClickSound()">News</a>
+                        <a href="whatsnew.html#events" class="dropdown" onclick="playClickSound()">Events</a>
+                    </div>
+                </li>
+                <!-- <li><input type="search" name="search" id="search" placeholder="Search here"></li> -->
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper-container">
+        <div class="container-content bg-light" id="story">
+            <div class="content-box">
+                <div class="box grid double align">
+                    <div class="box-layer shadow">
+                        <h2>Our Story</h2>
+                        <p>My Inside Voice Overs was founded in 2024 with the mission of bringing the joy of comics to a
+                            wider
+                            audience. We believe that everyone deserves to experience the thrill of storytelling,
+                            regardless of
+                            their reading preferences. Through engaging audio narrations and stunning visuals, we aim to
+                            make
+                            comics accessible and enjoyable for all.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut autem, delectus veritatis
+                            cumque aliquam doloremque doloribus eveniet! Sit ratione aperiam illum nisi necessitatibus,
+                            sed facilis, porro atque aut repudiandae obcaecati!</p>
+                    </div>
+                    <figure>
+                        <img src="media/comic2.jpg" alt="Comic 1" class="comic-data">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark">
+        <nav class="justify">
+            <ul>
+                <li>
+                    <p>Copyright 2024 MIVO. All rights reserved.</p>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
