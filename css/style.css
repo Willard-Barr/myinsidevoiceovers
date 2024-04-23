@@ -9,6 +9,11 @@
 * a {
   color: unset;
 }
+*.stick-bottom {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
 *.bg-light {
   background-color: #FFFFFF;
 }
